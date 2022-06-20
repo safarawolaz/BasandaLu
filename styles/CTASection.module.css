@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 50vh;
+}
+.CTAContent {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.357);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    border: .2rem solid #f47920;
+    border-radius:  5rem;
+    cursor: pointer;
+    background-color: #f47920;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    color: #f47920;
+    border: .2rem solid #f47920;
+    background-color: transparent;
+}
+.ctaImg {
+    background:url(../public/CTAImg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+

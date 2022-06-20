@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(244, 241, 241);
+    padding: 2rem 9%;
+
+}
+.servicePageHero {
+    margin-top: 12rem;
+}
+
+.servicesHeading {
+    text-align: center;
+    margin-top: 5rem;
+}
+.subHeading {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #eb9c63;
+    letter-spacing: 2px;
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(55, 54, 54);
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 10rem;
+}
+.service {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: border 2s ease;
+    box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+}
+.service:hover {
+    border: 2px solid #f47920;
+}
+.description {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #777;
+    margin-bottom: 3rem;
+}
+.title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    border: .2rem solid #f47920;
+    border-radius:  5rem;
+    cursor: pointer;
+    background-color: #f47920;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    color: #f47920;
+    border: .2rem solid #f47920;
+    background-color: transparent;
+}
+.icon {
+    font-size: 3rem;
+    color: #eb9c63;   
+}
+.iconContainer {
+    text-align: center;
+}

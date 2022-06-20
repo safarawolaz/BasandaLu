@@ -1,0 +1,138 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(230, 228, 228);
+    padding-right: 3rem 9%;
+}
+.containerCtn {
+    margin-top: 12rem;
+}
+.header {
+    text-align: center;
+}
+.subHeading {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #eb9c63;
+    letter-spacing: 2px;
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(55, 54, 54);
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 8rem;
+}
+.content {
+    flex: 1;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+
+}
+.title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.desc {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #777;
+}
+.msgMap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 0 8rem 12rem;
+    
+}
+.formContainer {
+    flex: 1;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+
+}
+.inputDetail {
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+}
+.msg {
+    margin-top: 3rem;
+    width: 100%;;
+}
+.text {
+    width: 100%;
+    padding: 2rem;
+}
+.icon {
+    font-size: 2.5rem;
+    color: #eb9c63;
+}
+.mapContainer {
+    flex: 1;
+   
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    border: .2rem solid #f47920;
+    border-radius:  5rem;
+    cursor: pointer;
+    background-color: #f47920;
+    letter-spacing: 1px;
+    margin-top: 6rem;
+    
+}
+.btn:hover {
+    color: #f47920;
+    border: .2rem solid #f47920;
+    background-color: transparent;
+}
+.mapDetail {
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+@media screen and (max-width:768px) {
+    .details {
+        flex-direction: column;
+    }
+    .content {
+        width: 100%;
+    }
+    .msgMap {
+        flex-direction: column;
+    }
+    .formContainer {
+        width: 100%;
+    }
+    .mapContainer {
+        width: 100%;
+    }
+    .btn {
+        margin-bottom: 6rem;
+    }
+   
+ }
