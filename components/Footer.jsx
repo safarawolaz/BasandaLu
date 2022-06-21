@@ -67,7 +67,7 @@ const Footer = () => {
       </div>
       
     </div>
-    <div class={styles.footerCopyright}>
+    <div className={styles.footerCopyright}>
     <small>Copyright &copy; Basanda LU IT Solutions | all rights reserved 2022</small>
 </div>
 </>
