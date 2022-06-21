@@ -7,9 +7,8 @@ const AboutSection = () => {
   return (
     <div className={styles.container}>
         <div className={styles.aboutImg}>
-            <div  className={styles.aboutImage1}>
+            {/* <div  className={styles.aboutImage1}>
                 <Image
-                    // loader={()=> }
                     src="/AbtImg1.jpg"
                     alt="about img1"
                     width="400"
@@ -17,19 +16,17 @@ const AboutSection = () => {
                     objectFit='cover'
                     className={styles.img}
                 />
-            </div>
+            </div> */}
             <div  className={styles.aboutImage2}>
                 <Image
-                    // loader={()=> src="/abtImg1.jpg"}
                     src="/AbtImg2.jpg"
                     alt="about img2"
-                    width="400"
-                    height="400"
+                    width="600"
+                    height="600"
                     objectFit='cover'
                     className={styles.img}
                 />
             </div>
-            <p className={styles.badge}>3 Yrs Experience</p>
         </div>
         <div className={styles.aboutContent}>
             <p className={styles.subHeading}>about us</p>
