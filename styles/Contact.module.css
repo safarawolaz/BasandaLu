@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background-color: rgb(230, 228, 228);
-    padding: 3rem 9%;
+    padding: 3rem 6%;
 }
 .containerCtn {
     margin-top: 12rem;
@@ -31,7 +31,8 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    padding: 0 8rem;
+    padding: 0;
+    width: 100%;
 }
 .content {
     flex: 1;
@@ -58,7 +59,7 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 3rem;
-    padding: 0 8rem 12rem;
+    /* padding: 0 8rem 12rem; */
     
 }
 .formContainer {
@@ -149,14 +150,7 @@
     }
  }
  @media screen and (max-width:1096px) {
-    .details {
-        width: 100%;
-        padding: 0;
-     }
-     .msgMap {
-        width: 100%;
-        padding: 0;
-    }
+    
 }
 @media screen and (max-width:600px) {
     .details {
