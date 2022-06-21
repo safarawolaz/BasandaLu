@@ -5,9 +5,8 @@
     margin-left: 0;
     margin-right: 0;
     display: flex;
-    /* align-items: center; */
     padding: 2rem 9%;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
     position: relative;
     
 }
@@ -18,14 +17,6 @@
 .aboutContent {
     flex: 1;
 }
-
-/* .aboutImage1 {
-    position: absolute;
-    top: 0;
-    left: 9%;
-    z-index: -1;
-    border-radius: 10px;
-} */
 .aboutImage2 {
     z-index: 1;
     border-radius: 10px;

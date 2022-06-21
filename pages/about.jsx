@@ -16,19 +16,18 @@ const about = () => {
         <div className={styles.aboutLeft}>
           <p className={styles.description}>Basanda LU IT Solutions started out as an IT services company in 2020. We offer services such as Web Design, Custom Software development, Graphic Design, IT Support and Consultancy and SEO. We are currently operating from Mbombela but we can provide services across the rest of South Africa. Our target clients are small to medium sized companies seeking to improve their brand awareness or stremline their operations using cutting edge IT solutions. </p>
           <h3 className={styles.heading3}>Our Mission</h3>
-          <p className={styles.description}>To add value to our client's businesses through technological innovation.</p>
+          <p className={styles.description}>To add value to our clients businesses through technological innovation.</p>
           <h3 className={styles.heading3}>Our Vision</h3>
           <p className={styles.description}>Build a world class organisation that is respected by all. We intend to create value for our stakeholders ie our clients, employees and vendors.</p>
         </div>
         <div className={styles.aboutRight}>
             <div  className={styles.aboutImage1}>
                     <Image
-                        // loader={()=> }
                         src="/aboutImg.jpg"
                         alt="about aboutImg"
                         width="600"
                         height="600"
-                        objectFit='cover'
+                        objectFit= "cover"
                         className={styles.img}
                     />
               </div>

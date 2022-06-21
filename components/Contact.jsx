@@ -66,7 +66,7 @@ const Contact = () => {
                 </form>
             </div>
             <div className={styles.mapContainer}>
-                <iframe className={styles.mapDetail} id="gmap_canvas" src="https://maps.google.com/maps?q=Madikizela%20Mandela%20Ave,%20Daantjie,%201215&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe className={styles.mapDetail} id="gmap_canvas" src="https://maps.google.com/maps?q=Madikizela%20Mandela%20Ave,%20Daantjie,%201215&t=&z=11&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
             </div>
         </div>
     </div>
