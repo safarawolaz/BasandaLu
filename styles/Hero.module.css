@@ -94,7 +94,7 @@
  }
  @media screen and (max-width:600px) {
     .container {
-     height: auto;
+     height: 80vh;
     }
    
  }
