@@ -7,7 +7,7 @@
 .heading {
     text-align: center;
     margin-top: 3rem;
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
     color: rgb(55, 54, 54);
     letter-spacing: 3px;
@@ -36,4 +36,19 @@
 }
 .img {
     border-radius: 10px;
+}
+@media screen and (max-width:1096px) {
+     
+}
+@media screen and (max-width:768px) {
+    
+    
+}
+  @media screen and (max-width:600px) {
+    .container {
+        height: auto;
+    }
+    .aboutContainer {
+        flex-direction: column;
+    }
 }

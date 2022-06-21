@@ -76,3 +76,9 @@
  }
    
  }
+ @media screen and (max-width:600px) {
+    .footerCopyright {
+        font-size: 1.2rem;
+    }
+    
+  }
