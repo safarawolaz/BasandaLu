@@ -57,7 +57,7 @@ const OurServices = () => {
                     <FaSitemap className={styles.icon}/>
                 </div>
                <h3 className={styles.title}>SEO</h3>
-               <p className={styles.description}>SEO stands for “search engine optimization.” We help optimize your of websites and web pages for major search engines like Google. The better visibility your pages have in search results, the more likely you are to garner attention and attract prospective and existing customers to your business.</p>
+               <p className={styles.description}>SEO stands for “search engine optimization.” We help optimize your websites and web pages for major search engines like Google. The better visibility your pages have in search results, the more likely you are to garner attention and attract prospective and existing customers to your business.</p>
                <button className={styles.btn}>Learn More</button>
            </div>
        </div>
