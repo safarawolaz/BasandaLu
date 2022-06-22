@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <div className={styles.container}>
     <div className={styles.videoContainer}>
-      <video src="img/heroVideo.mp4" type='video/mp4' muted autoPlay loop playsInline className={styles.video}>
+      <video src="img/heroVideo.mp4" type='video/mp4' muted autoPlay loop playsinline className={styles.video}>
       </video>
       </div>
      <div className={styles.heroContent}>
