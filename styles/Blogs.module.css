@@ -13,3 +13,6 @@
     color: rgb(55, 54, 54);
     text-transform: uppercase;
 }
+@media screen and (max-width:600px) {
+    .heading {font-size: 3rem;}
+ }

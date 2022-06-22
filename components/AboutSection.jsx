@@ -29,11 +29,11 @@ const AboutSection = () => {
             </div>
         </div>
         <div className={styles.aboutContent}>
-            <p className={styles.subHeading}>about us</p>
-            <h1 className={styles.heading}>why choose us</h1>
+            <p className={styles.subHeading}>Why us?</p>
+            <h1 className={styles.heading}>why choose us?</h1>
             <p className={styles.content}>
             Smart businesses know that they always need to find ways to optimise their business and operations especially in this day and age. Digital transformation is inevitable. Basanda Lu IT Solutions believes that sustaining a business involves making an authentic connection with its customers and stakeholders. We believe in a consultative approach. </p>
-            <p className={styles.content}> We understand your requirements first and then put forward solutions suitable for you. We provide Lifetime support post-delivery. We provide an elegant solution which provides your business with an edge over your competitors. 
+            <p className={styles.content}> We understand your requirements first and then put forward solutions suitable for you. We provide Lifetime support post-delivery. We provide an elegant solutions which provides your business with an edge over your competitors. 
             </p>
             <button className={styles.btn}>Learn More</button>
         </div>
