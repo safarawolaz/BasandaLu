@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Navbar.module.css'
+import { FaBars, FaTimes} from "react-icons/fa"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -30,11 +31,9 @@ const Navbar = () => {
               </li>
         </ul>
         <div className={styles.hamburger} onClick={() => setOpen(!open)}>
-            <div className={styles.line}></div>
-            <div className={styles.line}></div>
-            <div className={styles.line}></div>
+           {open ? <FaTimes className={styles.icon} /> : <FaBars className={styles.icon} />}
         </div>
-        <ul onClick={() => setOpen(false)} className={styles.menu} style={{right: open ? "0px" : "-50vw"}}>
+        {open && <ul onClick={() => setOpen(false)} className={styles.menu}>
               <li className={styles.menuItem}>
                 <Link  href="/about">about us</Link>
               </li>
@@ -50,7 +49,7 @@ const Navbar = () => {
               <li className={styles.menuItem}>
                 <Link  href="/contactUs">contact us</Link>
               </li>
-        </ul>
+        </ul>}
         <a href="#book-form" className={styles.btn}>+2765 923 6199</a> 
     </div>
   )
