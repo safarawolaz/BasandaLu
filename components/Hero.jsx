@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
      <div className={styles.heroContent}>
         <p className={styles.subHeading}>your trusted partner in it</p>
-        <h1 className={styles.heading } ref={textRef}></h1>
+        <h1 className={styles.heading }We do ref={textRef}></h1>
         <button className={styles.btn}>Get a free quote</button>
     </div>  
     </div>
