@@ -92,7 +92,7 @@
  @media screen and (max-width:600px) {
     .container {
      height: 100vh;
-     background-color: #f47920;
+     background-color: #b0aead;
     }
     .video {
         display: none;
@@ -100,7 +100,6 @@
     .btn {
         font-size: 1.2rem;
         padding: 1rem 2rem;
-        background-color: white;
       } 
    
  }
