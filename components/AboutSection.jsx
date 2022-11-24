@@ -19,7 +19,7 @@ const AboutSection = () => {
             </div> */}
             <div  className={styles.aboutImage2}>
                 <Image
-                    src="/AbtImg2.jpg"
+                    src="/AbtImg2.jpg" 
                     alt="about img2"
                     width="600"
                     height="600"

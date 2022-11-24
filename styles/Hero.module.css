@@ -5,8 +5,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 15rem;
 }
+
+
 
 .container::before {
     content: "";
@@ -43,6 +44,12 @@
     font-size: clamp(1.8rem, 6vw, 7rem);
     letter-spacing: 3px;
     color: white;
+    margin-bottom: 3rem;
+}
+.desc {
+    font-size: 2rem;
+    color: white;
+    line-height: 1.5;
     margin-bottom: 6rem;
 }
 .btn {
@@ -61,7 +68,7 @@
     border: .2rem solid #f47920;
     background-color: transparent;
 }
-.videoContainer {
+.heroImgContainer {
     width: 100%;
 }
 .video {
